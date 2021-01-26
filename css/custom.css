@@ -1,0 +1,153 @@
+.about-text-left, .contest-text-left {
+    border-right: solid 2px #212529;
+}
+
+.about-text-right, .contest-text-right {
+    border-left: solid 2px #212529;
+}
+
+.alternate-bg {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.primary-bg {
+    background-color: #ffb900;
+    color: #000000;
+}
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.custom-nav > li {
+    margin-right: 5px !important;
+}
+
+.custom-nav > li > a.nav-link.js-scroll-trigger {
+    padding: 0.5rem !important;
+    font-size: 13px !important;
+}
+
+h3#regSubheading {
+    font-size: 2.3rem;
+    font-style: normal !important;
+    font-weight: bold;
+}
+span#regText {
+    font-size: 18px;
+}
+
+.img-circle {
+    border-radius: 100% !important;
+}
+
+.img-org {
+    width: 250px;
+}
+
+.logo-img {
+    width: 25%;
+}
+
+a.navbar-logo {
+    width: 60%;
+}
+
+header.masthead {
+    height: 100vh;
+    background-position: bottom center;
+}
+
+a#heroButton {
+    margin-bottom: -160px;
+}
+
+.format-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) { 
+    .img-org {
+        width: 200px;
+    }
+
+    .format-desktop {
+        display: none;
+    }
+
+    .format-mobile {
+        display: block;
+    }
+
+    .logo-img {
+        width: 50%;
+    }
+
+    header.masthead {
+        height: 70vh;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header.masthead .masthead-heading {
+        font-size: 2.5rem;
+    }
+    
+    .about-text-left, .contest-text-left, .about-text-right, .contest-text-right {
+        border-left: none;
+        border-right: none;
+    }
+
+    .page-section h2.section-heading {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    section {
+        padding: 30px !important;
+    }
+
+    section#trick > div.container > div.row > div.col-md-4 {
+        margin-bottom: 40px !important;
+    }
+
+    section#rules ul {
+        padding-left: 0 !important; 
+    }
+
+    h3#regSubheading {
+        font-size: 1rem;
+    }
+
+    .img-org {
+        margin-top: 40px;
+    }
+
+    .org-row1 {
+        margin-bottom: 0 !important;
+    }
+
+    header.masthead {
+        height: 45vh;
+    }
+
+    .logo-img {
+        width: 80%;
+    }
+
+    a#heroButton {
+        margin-bottom: -115px;
+        padding: 10px;
+    }
+
+    .contest-text-right {
+        margin-top: 20px;
+    }
+}
