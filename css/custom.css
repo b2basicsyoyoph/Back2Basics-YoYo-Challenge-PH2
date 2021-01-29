@@ -70,6 +70,14 @@ a#heroButton {
     display: none;
 }
 
+#organizers span {
+    font-size: 13.5px;
+}
+
+section#free-rules {
+    padding-top: 0;
+}
+
 @media only screen and (max-width: 768px) { 
     .img-org {
         width: 200px;
@@ -89,6 +97,10 @@ a#heroButton {
 
     header.masthead {
         height: 70vh;
+    }
+
+    #organizers span {
+        font-size: 13px;
     }
 }
 

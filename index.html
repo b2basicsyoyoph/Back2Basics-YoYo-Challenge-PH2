@@ -33,10 +33,11 @@
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contest">Contest Format</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#rules">Basic to Hyper Level Rules</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#trick">Trick List</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#free">Freestyle Rules</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#free-qual">FREESTYLE QUALIFYING</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#free-rules">FREESTYLE RULES</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#registration">Registration</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#demos">Demos</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#organizers">Organizers</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#demos">BASIC TO HYPER LEVEL TUTORIAL</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#organizers">JUDGES and ORGANIZERS</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sponsors">Sponsors</a></li>
                     </ul>
                 </div>
@@ -126,18 +127,31 @@
                 </div>
             </div>
         </section>
-        <!-- Freestyle Rules -->
-        <section class="page-section" id="free">
+        <!-- Freestyle Qualifying -->
+        <section class="page-section" id="free-qual">
             <div class="container">
                 <div class="text-center my-4">
-                    <h2 class="section-heading text-uppercase" id="fsRulesHeading"></h2>
+                    <h2 class="section-heading text-uppercase" id="fsQualHeading"></h2>
                 </div>
                 <div class="row">
                     <div class="col-md-6 contest-text-left text-justify">
-                        <span id="fsRulesLeft"></span>
+                        <span id="fsQualLeft"></span>
                     </div>
                     <div class="col-md-6 contest-text-right text-justify">
-                        <span id="fsRulesRight"></span>
+                        <span id="fsQualRight"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Freestyle Rules -->
+        <section class="page-section" id="free-rules">
+            <div class="container alternate-bg rounded p-4">
+                <div class="text-center my-4">
+                    <h2 class="section-heading text-uppercase" id="fsRulesHeading"></h2>
+                </div>
+                <div class="row text-center mb-4">
+                    <div class="col">
+                        <span id="fsRulesText"></span>
                     </div>
                 </div>
             </div>
@@ -174,7 +188,7 @@
                                     <option>Super Level</option>
                                     <option>Hyper Level</option>
                                     <option>Basic Level to Hyper Level</option>
-                                    <option>Freestyle Challenge</option>
+                                    <!-- <option>Freestyle Challenge</option> -->
                                 </select>
                                 <p class="help-block text-danger"></p>
                             </div>
@@ -207,48 +221,41 @@
                     </div>
                     <div class="col-md-4">
                         <div class="embed-responsive embed-responsive-4by3 mb-3">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PuXM6beN8EQ" allowfullscreen></iframe>
+                            <iframe class="embed-responsive-item alternate-bg" src="" allowfullscreen></iframe>
                         </div>   
                     </div>
                     <div class="col-md-4">
                         <div class="embed-responsive embed-responsive-4by3">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PuXM6beN8EQ" allowfullscreen></iframe>
+                            <iframe class="embed-responsive-item alternate-bg" src="" allowfullscreen></iframe>
                         </div>   
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Organizers -->
+        <!-- Judges and Organizers -->
         <section class="page-section alternate-bg" id="organizers">
             <div class="container">
                 <div class="text-center mb-4">
                     <h2 class="section-heading text-uppercase" id="orgHeading"></h2>
                 </div>
-                <div class="row text-center mb-4 org-row1">
-                    <div class="col">
+                <div class="row text-center mb-4 org-row1 d-flex justify-content-center">
+                    <div class="col-lg-4 col-md-6 col-sm">
                         <img src="assets/img/Organizers/org1.jpg" class="rounded mx-auto d-block img-circle img-org mb-2" alt="...">
                         <h4 id="org1Name"></h4>
                         <span id="org1Text"></span>
                     </div>
-                </div>
-                <div class="row text-center mb-4 org-row1">
-                    <div class="col-md-4">
-                        <img src="assets/img/Organizers/org7.jpg" class="rounded mx-auto d-block img-circle img-org mb-2" alt="...">
-                        <h4 id="org7Name"></h4>
-                        <span id="org7Text"></span>
-                    </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-6 col-sm">
                         <img src="assets/img/Organizers/org2.jpg" class="rounded mx-auto d-block img-circle img-org mb-2" alt="...">
                         <h4 id="org2Name"></h4>
                         <span id="org2Text"></span>
                     </div>
+                </div>
+                <div class="row text-center mb-4 org-row1">
                     <div class="col-md-4">
                         <img src="assets/img/Organizers/org3.jpg" class="rounded mx-auto d-block img-circle img-org mb-2" alt="...">
                         <h4 id="org3Name"></h4>
                         <span id="org3Text"></span>
                     </div>
-                </div>
-                <div class="row text-center">
                     <div class="col-md-4">
                         <img src="assets/img/Organizers/org4.jpg" class="rounded mx-auto d-block img-circle img-org mb-2" alt="...">
                         <h4 id="org4Name"></h4>
@@ -258,11 +265,6 @@
                         <img src="assets/img/Organizers/org5.jpg" class="rounded mx-auto d-block img-circle img-org mb-2" alt="...">
                         <h4 id="org5Name"></h4>
                         <span id="org5Text"></span>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="assets/img/Organizers/org6.jpg" class="rounded mx-auto d-block img-circle img-org mb-2" alt="...">
-                        <h4 id="org6Name"></h4>
-                        <span id="org6Text"></span>
                     </div>
                 </div>
             </div>
@@ -276,14 +278,23 @@
             </div>
             <div class="container mt-2 p-4 alternate-bg rounded">
                 <div class="row text-center">
-                    <div class="col-md-4">
-                        <img class="img-fluid w-50" src="assets/img/Sponsors/FLIPSPIN.png" />
+                    <div class="col">
+                        <img class="img-fluid" src="assets/img/Sponsors/FLIPSPIN.png" />
                     </div>
-                    <div class="col-md-4">
-                        <img class="img-fluid w-50" src="assets/img/Sponsors/KRUNCH.jpg" />
+                    <div class="col-lg col-sm-4">
+                        <img class="img-fluid" src="assets/img/Sponsors/KRUNCH.jpg" />
                     </div>
-                    <div class="col-md-4">
-                        <img class="img-fluid w-50" src="assets/img/Sponsors/POTS.jpg" />
+                    <div class="col-lg col-sm-4">
+                        <img class="img-fluid" src="assets/img/Sponsors/POTS.jpg" />
+                    </div>
+                    <div class="col-lg col-sm-4">
+                        <img class="img-fluid" src="assets/img/Sponsors/Daily-Throws.png" />
+                    </div>
+                    <div class="col-lg col-sm-4">
+                        <img class="img-fluid" src="assets/img/Sponsors/Dave-Solitario.png" />
+                    </div>
+                    <div class="col-lg col-sm-4">
+                        <img class="img-fluid" src="assets/img/Sponsors/Wendel-Lopez.png" />
                     </div>
                 </div>
             </div>
@@ -364,9 +375,11 @@
                 superList.innerHTML = data.superList;
                 hyperHeading.innerHTML = data.hyperHeading;
                 hyperList.innerHTML = data.hyperList;
+                fsQualHeading.innerHTML = data.fsQualHeading;
+                fsQualLeft.innerHTML = data.fsQualLeft;
+                fsQualRight.innerHTML = data.fsQualRight;
                 fsRulesHeading.innerHTML = data.fsRulesHeading;
-                fsRulesLeft.innerHTML = data.fsRulesLeft;
-                fsRulesRight.innerHTML = data.fsRulesRight;
+                fsRulesText.innerHTML = data.fsRulesText;
                 regHeading.innerHTML = data.regHeading;
                 demosHeading.innerHTML = data.demosHeading;
                 regSubheading.innerHTML = data.regSubheading;
@@ -383,10 +396,6 @@
                 org4Text.innerHTML = data.org4Text;
                 org5Name.innerHTML = data.org5Name;
                 org5Text.innerHTML = data.org5Text;
-                org6Name.innerHTML = data.org6Name;
-                org6Text.innerHTML = data.org6Text;
-                org7Name.innerHTML = data.org7Name;
-                org7Text.innerHTML = data.org7Text;
             });
         }
 
