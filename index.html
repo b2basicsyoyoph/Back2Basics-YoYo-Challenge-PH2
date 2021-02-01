@@ -151,7 +151,81 @@
                 </div>
                 <div class="row text-center mb-4">
                     <div class="col">
-                        <span id="fsRulesText"></span>
+                        <!-- <span id="fsRulesText"></span> -->
+                        <img class="img-fluid format-desktop" src="assets/img/division-desktop.jpg" />
+                        <img class="img-fluid format-mobile" src="assets/img/division-mobile.jpg" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Prizes -->
+        <section class="page-section" id="prizes">
+            <div class="container alternate-bg rounded p-4">
+                <div class="text-center my-4">
+                    <h2 class="section-heading text-uppercase" id="prizesHeading"></h2>
+                    <h4 id="prizesSubhead"></h4>
+                </div>
+                <div class="row text-center mb-4">
+                    <div class="col">
+                        <div class="card primary-bg h-100">
+                            <div class="card-body">
+                                <h4 id="prizesTitle1"></h4>
+                                <span id="prizesText1"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card primary-bg h-100">
+                            <div class="card-body">
+                                <h4 id="prizesTitle2"></h4>
+                                <span id="prizesText2"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card primary-bg h-100">
+                            <div class="card-body">
+                                <h4 id="prizesTitle3"></h4>
+                                <span id="prizesText3"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card primary-bg h-100">
+                            <div class="card-body">
+                                <h4 id="prizesTitle4"></h4>
+                                <span id="prizesText4"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center my-4">
+                    <h4 id="prizesSubhead2"></h4>
+                </div>
+                <div class="row text-center mb-4">
+                    <div class="col">
+                        <div class="card primary-bg h-100">
+                            <div class="card-body">
+                                <h4 id="prizesDiv1"></h4>
+                                <span id="prizesDivText1"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card primary-bg h-100">
+                            <div class="card-body">
+                                <h4 id="prizesDiv2"></h4>
+                                <span id="prizesDivText2"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card primary-bg h-100">
+                            <div class="card-body">
+                                <h4 id="prizesDiv3"></h4>
+                                <span id="prizesDivText3"></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -221,7 +295,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="embed-responsive embed-responsive-4by3 mb-3">
-                            <iframe class="embed-responsive-item alternate-bg" src="" allowfullscreen></iframe>
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ch57tNn6mD0" allowfullscreen></iframe>
                         </div>   
                     </div>
                     <div class="col-md-4">
@@ -296,6 +370,9 @@
                     <div class="col-lg col-sm-4">
                         <img class="img-fluid" src="assets/img/Sponsors/Wendel-Lopez.png" />
                     </div>
+                    <div class="col-lg col-sm-4">
+                        <img class="img-fluid" src="assets/img/Sponsors/Spingear.png" />
+                    </div>                   
                 </div>
             </div>
         </section>
@@ -379,7 +456,24 @@
                 fsQualLeft.innerHTML = data.fsQualLeft;
                 fsQualRight.innerHTML = data.fsQualRight;
                 fsRulesHeading.innerHTML = data.fsRulesHeading;
-                fsRulesText.innerHTML = data.fsRulesText;
+                // fsRulesText.innerHTML = data.fsRulesText;
+                prizesHeading.innerHTML = data.prizesHeading;
+                prizesSubhead.innerHTML = data.prizesSubhead;
+                prizesTitle1.innerHTML = data.prizesTitle1;
+                prizesText1.innerHTML = data.prizesText1;
+                prizesTitle2.innerHTML = data.prizesTitle2;
+                prizesText2.innerHTML = data.prizesText2;
+                prizesTitle3.innerHTML = data.prizesTitle3;
+                prizesText3.innerHTML = data.prizesText3;
+                prizesTitle4.innerHTML = data.prizesTitle4;
+                prizesText4.innerHTML = data.prizesText4;
+                prizesSubhead2.innerHTML = data.prizesSubhead2;
+                prizesDiv1.innerHTML = data.prizesDiv1;
+                prizesDivText1.innerHTML = data.prizesDivText1;
+                prizesDiv2.innerHTML = data.prizesDiv2;
+                prizesDivText2.innerHTML = data.prizesDivText2;
+                prizesDiv3.innerHTML = data.prizesDiv3;
+                prizesDivText3.innerHTML = data.prizesDivText3;
                 regHeading.innerHTML = data.regHeading;
                 demosHeading.innerHTML = data.demosHeading;
                 regSubheading.innerHTML = data.regSubheading;

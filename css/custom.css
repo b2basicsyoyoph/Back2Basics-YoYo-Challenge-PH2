@@ -74,7 +74,7 @@ a#heroButton {
     font-size: 13.5px;
 }
 
-section#free-rules {
+section#free-rules, section#prizes {
     padding-top: 0;
 }
 
