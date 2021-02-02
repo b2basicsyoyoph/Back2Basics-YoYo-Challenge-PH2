@@ -197,4 +197,8 @@ section#prizes {
     section#prizes .col , section#prizes .col-sm {
         margin-bottom: 30px;
     }
+
+    section#prizes .col:last-child {
+        margin-top: 0;
+    }
 }
