@@ -217,4 +217,16 @@ section#prizes span {
     section#prizes span {
         font-size: 16px;
     }
+
+    section#demos .card {
+        margin: 10px !important;
+    }
+
+    section#demos {
+        padding: 0 !important;
+    }
+
+    section#demos .card-body {
+        padding: 5px !important;
+    }
 }
