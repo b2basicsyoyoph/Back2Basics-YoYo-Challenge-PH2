@@ -74,8 +74,35 @@ a#heroButton {
     font-size: 13.5px;
 }
 
-section#free-rules, section#prizes {
+section#prizes {
     padding-top: 0;
+}
+
+.custom-drop {
+    border: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+.custom-drop > a {
+    color:#ffffff;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 13px;
+    color: #fff;
+    letter-spacing: 0.0625em;
+}
+
+.custom-drop > a:hover {
+    color: #ffb900;
+    background-color: rgb(255, 255, 255, 0);
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: rgb(255, 255, 255, 0) !important;
+}
+
+.custom-toggle {
+    margin-left: 8px;
 }
 
 @media only screen and (max-width: 768px) { 
@@ -101,6 +128,10 @@ section#free-rules, section#prizes {
 
     #organizers span {
         font-size: 13px;
+    }
+
+    section#prizes .col:last-child {
+        margin-top: 30px;
     }
 }
 
@@ -161,5 +192,9 @@ section#free-rules, section#prizes {
 
     .contest-text-right {
         margin-top: 20px;
+    }
+
+    section#prizes .col , section#prizes .col-sm {
+        margin-bottom: 30px;
     }
 }

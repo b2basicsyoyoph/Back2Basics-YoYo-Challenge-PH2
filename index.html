@@ -31,12 +31,24 @@
                     <ul class="navbar-nav text-uppercase ml-auto custom-nav">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contest">Contest Format</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#rules">Basic to Hyper Level Rules</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#trick">Trick List</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#free-qual">FREESTYLE QUALIFYING</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#free-rules">FREESTYLE RULES</a></li>
+                        <li class="nav-item text-light custom-toggle">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Basic to Hyper Challenge</a>
+                            <div class="dropdown-menu bg-dark custom-drop">
+                              <a class="dropdown-item js-scroll-trigger" href="#rules">Basic to Hyper Level Rules</a>
+                              <a class="dropdown-item js-scroll-trigger" href="#trick">Trick List</a>
+                              <a class="dropdown-item js-scroll-trigger" href="#demos">VIDEO TUTORIAL</a>
+                            </div>
+                        </li>
+                        <li class="nav-item text-light custom-toggle">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Freestyle Challenge</a>
+                            <div class="dropdown-menu bg-dark custom-drop">
+                                <a class="dropdown-item js-scroll-trigger" href="#free-qual">Qualifying Rules</a>                                
+                                <a class="dropdown-item js-scroll-trigger" href="#free-rules">FREESTYLE RULES</a>                            
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#prizes">Prizes</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#registration">Registration</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#demos">BASIC TO HYPER LEVEL TUTORIAL</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#results">Results</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#organizers">JUDGES and ORGANIZERS</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sponsors">Sponsors</a></li>
                     </ul>
@@ -74,6 +86,11 @@
                     <h2 class="section-heading text-uppercase mb-5" id="contestHeading"></h2>
                     <img class="img-fluid format-desktop" src="assets/img/format-desktop.jpg" />
                     <img class="img-fluid format-mobile" src="assets/img/format-mobile.jpg" />
+                </div>
+                <div class="text-center my-4">
+                    <h2 class="section-heading text-uppercase mb-5" id="contestHeading2"></h2>
+                    <img class="img-fluid format-desktop" src="assets/img/division-desktop.jpg" />
+                    <img class="img-fluid format-mobile" src="assets/img/division-mobile.jpg" />
                 </div>
             </div>
         </section>
@@ -127,8 +144,35 @@
                 </div>
             </div>
         </section>
+        <!-- Video Tutorial -->
+        <section class="page-section" id="demos">
+            <div class="container">
+                <div class="text-center mb-4">
+                    <h2 class="section-heading text-uppercase" id="demosHeading"></h2>
+                </div>
+            </div>
+            <div class="container mt-2">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <div class="embed-responsive embed-responsive-4by3 mb-3">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PuXM6beN8EQ" allowfullscreen></iframe>
+                        </div>                    
+                    </div>
+                    <div class="col-md-4">
+                        <div class="embed-responsive embed-responsive-4by3 mb-3">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ch57tNn6mD0" allowfullscreen></iframe>
+                        </div>   
+                    </div>
+                    <div class="col-md-4">
+                        <div class="embed-responsive embed-responsive-4by3">
+                            <iframe class="embed-responsive-item alternate-bg" src="" allowfullscreen></iframe>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Freestyle Qualifying -->
-        <section class="page-section" id="free-qual">
+        <section class="page-section alternate-bg" id="free-qual">
             <div class="container">
                 <div class="text-center my-4">
                     <h2 class="section-heading text-uppercase" id="fsQualHeading"></h2>
@@ -148,13 +192,7 @@
             <div class="container alternate-bg rounded p-4">
                 <div class="text-center my-4">
                     <h2 class="section-heading text-uppercase" id="fsRulesHeading"></h2>
-                </div>
-                <div class="row text-center mb-4">
-                    <div class="col">
-                        <!-- <span id="fsRulesText"></span> -->
-                        <img class="img-fluid format-desktop" src="assets/img/division-desktop.jpg" />
-                        <img class="img-fluid format-mobile" src="assets/img/division-mobile.jpg" />
-                    </div>
+                    <span id="fsRulesText"></span>
                 </div>
             </div>
         </section>
@@ -203,7 +241,7 @@
                     <h4 id="prizesSubhead2"></h4>
                 </div>
                 <div class="row text-center mb-4">
-                    <div class="col">
+                    <div class="col-sm">
                         <div class="card primary-bg h-100">
                             <div class="card-body">
                                 <h4 id="prizesDiv1"></h4>
@@ -211,7 +249,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-sm">
                         <div class="card primary-bg h-100">
                             <div class="card-body">
                                 <h4 id="prizesDiv2"></h4>
@@ -219,7 +257,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-sm">
                         <div class="card primary-bg h-100">
                             <div class="card-body">
                                 <h4 id="prizesDiv3"></h4>
@@ -230,7 +268,7 @@
                 </div>
             </div>
         </section>
-        <!-- Contact -->
+        <!-- Registration -->
         <section class="page-section alternate-bg" id="registration">
             <div class="container">
                 <div class="text-center mb-4">
@@ -279,30 +317,12 @@
                 </form>
             </div>
         </section>
-        <!-- Demos -->
-        <section class="page-section" id="demos">
+        <!-- Results -->
+        <section class="page-section" id="results">
             <div class="container">
                 <div class="text-center mb-4">
-                    <h2 class="section-heading text-uppercase" id="demosHeading"></h2>
-                </div>
-            </div>
-            <div class="container mt-2">
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <div class="embed-responsive embed-responsive-4by3 mb-3">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PuXM6beN8EQ" allowfullscreen></iframe>
-                        </div>                    
-                    </div>
-                    <div class="col-md-4">
-                        <div class="embed-responsive embed-responsive-4by3 mb-3">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ch57tNn6mD0" allowfullscreen></iframe>
-                        </div>   
-                    </div>
-                    <div class="col-md-4">
-                        <div class="embed-responsive embed-responsive-4by3">
-                            <iframe class="embed-responsive-item alternate-bg" src="" allowfullscreen></iframe>
-                        </div>   
-                    </div>
+                    <h2 class="section-heading text-uppercase" id="resultsHeading"></h2>
+                    <span id="resultsText"></span>
                 </div>
             </div>
         </section>
@@ -442,6 +462,7 @@
                 aboutLeft.innerHTML = data.aboutLeft;
                 aboutRight.innerHTML = data.aboutRight;
                 contestHeading.innerHTML = data.contestHeading;
+                contestHeading2.innerHTML = data.contestHeading2;
                 rulesHeading.innerHTML = data.rulesHeading;
                 rulesLeft.innerHTML = data.rulesLeft;
                 rulesRight.innerHTML = data.rulesRight;
@@ -456,7 +477,7 @@
                 fsQualLeft.innerHTML = data.fsQualLeft;
                 fsQualRight.innerHTML = data.fsQualRight;
                 fsRulesHeading.innerHTML = data.fsRulesHeading;
-                // fsRulesText.innerHTML = data.fsRulesText;
+                fsRulesText.innerHTML = data.fsRulesText;
                 prizesHeading.innerHTML = data.prizesHeading;
                 prizesSubhead.innerHTML = data.prizesSubhead;
                 prizesTitle1.innerHTML = data.prizesTitle1;
@@ -478,6 +499,8 @@
                 demosHeading.innerHTML = data.demosHeading;
                 regSubheading.innerHTML = data.regSubheading;
                 regText.innerHTML = data.regText;
+                resultsHeading.innerHTML = data.resultsHeading;
+                resultsText.innerHTML = data.resultsText;
                 sponsorsHeading.innerHTML = data.sponsorsHeading;
                 orgHeading.innerHTML = data.orgHeading;
                 org1Name.innerHTML = data.org1Name;
