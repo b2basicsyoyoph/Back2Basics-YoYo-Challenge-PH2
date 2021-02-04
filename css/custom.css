@@ -117,6 +117,10 @@ section#prizes span {
     font-size: 18px;
 }
 
+section#sponsors img {
+    width: 60%;
+}
+
 @media only screen and (max-width: 768px) { 
     .img-org {
         width: 200px;
@@ -144,6 +148,10 @@ section#prizes span {
 
     section#prizes .col:last-child {
         margin-top: 30px;
+    }
+
+    section#sponsors img {
+        width: 100%;
     }
 }
 
