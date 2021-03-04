@@ -105,7 +105,7 @@ a#heroButton {
     margin-top: 80px !important;
 }
 
-h2#demosHeading {
+h2#demosHeading, h2#compdemosHeading {
     color: #000000 !important;
 }
 
@@ -152,6 +152,10 @@ section#sponsors img {
 
     section#sponsors img {
         width: 100%;
+    }
+
+    section#results div.row > div.col-md-4, section#comp-trick div.container:first-child div.row > div.col-md-4:nth-child(4), section#comp-trick div.container:first-child div.row > div.col-md-4:last-child {
+        margin-top: 20px;
     }
 }
 
@@ -214,7 +218,7 @@ section#sponsors img {
         margin-top: 20px;
     }
 
-    section#prizes .col , section#prizes .col-sm {
+    section#prizes .col , section#prizes .col-sm, section#comp-trick .col-sm {
         margin-bottom: 30px;
     }
 
@@ -226,15 +230,36 @@ section#sponsors img {
         font-size: 16px;
     }
 
-    section#demos .card {
+    section#demos .card, section#comp-demos .card {
         margin: 10px !important;
     }
 
-    section#demos {
+    section#demos, section#comp-demos {
         padding: 0 !important;
     }
 
-    section#demos .card-body {
+    section#demos .card-body, section#comp-demos .card-body {
         padding: 5px !important;
     }
+
+    section#comp-demos div.container:last-child > div.row > div.col-md-4 {
+        margin-bottom: 20px;
+    }
+
+    section#comp-demos div.container:last-child > div.row > div.col-md-4:first-child {
+        margin-top: 10px;
+    }
+
+    section#results div.row > div.col-md-4, section#comp-trick div.container:first-child div.row > div.col-md-4:nth-child(4), section#comp-trick div.container:first-child div.row > div.col-md-4:last-child {
+        margin-top: 20px;
+    }
+
+    section#comp-trick div.container:first-child > div.row > div.col-lg:nth-child(1), section#comp-trick div.container:first-child > div.row > div.col-lg:nth-child(2) {
+        margin-bottom: 20px;
+    }
+
+    section#comp-trick .card {
+        text-align: left;
+    }
+    
 }

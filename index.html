@@ -211,8 +211,8 @@
                 <div class="text-center my-4">
                     <h2 class="section-heading text-uppercase" id="comptrickHeading"></h2>
                 </div>
-                <div class="row mb-4">
-                    <div class="col">
+                <div class="row mb-4 justify-content-center text-center">
+                    <div class="col-lg col-md-4">
                         <div class="card primary-bg h-100">
                             <div class="card-body">
                                 <h5 class="mb-4" id="comp1aHeading"></h5>
@@ -220,7 +220,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-lg col-md-4">
                         <div class="card primary-bg h-100">
                             <div class="card-body">
                                 <h5 class="mb-4" id="comp2aHeading"></h5>
@@ -228,7 +228,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-lg col-md-4">
                         <div class="card primary-bg h-100">
                             <div class="card-body">
                                 <h5 class="mb-4" id="comp3aHeading"></h5>
@@ -236,7 +236,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-lg col-md-4">
                         <div class="card primary-bg h-100">
                             <div class="card-body">
                                 <h5 class="mb-4" id="comp4aHeading"></h5>
@@ -244,7 +244,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-lg col-md-4">
                         <div class="card primary-bg h-100">
                             <div class="card-body">
                                 <h5 class="mb-4" id="comp5aHeading"></h5>
@@ -456,30 +456,29 @@
             <div class="container">
                 <div class="text-center mb-4">
                     <h2 class="section-heading text-uppercase" id="resultsHeading"></h2>
-                    <!-- <span id="resultsText"></span> -->
                 </div>
-                <div class="row d-flex justify-content-center">
-                    <div class="col">
+                <div class="row d-flex justify-content-center text-center">
+                    <div class="col-lg col-md-4">
                         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#BasicResults">
                             BASIC LEVEL RESULTS
                         </button>
                     </div>
-                    <div class="col">
+                    <div class="col-lg col-md-4">
                         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#SuperResults">
                             SUPER LEVEL RESULTS
                         </button>
                     </div>
-                    <div class="col">
+                    <div class="col-lg col-md-4">
                         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#HyperResults">
                             HYPER LEVEL RESULTS
                         </button>
                     </div>
-                    <div class="col">
+                    <div class="col-lg col-md-4">
                         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#OverallResults">
                             BASIC TO HYPER LEVEL RESULTS
                         </button>
                     </div>
-                    <div class="col">
+                    <div class="col-lg col-md-4">
                         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#FreequalResults">
                             FREESTYLE QUALIFIERS
                         </button>
@@ -578,16 +577,84 @@
             </div>
         </footer>
         <!-- Modals-->
-        <!-- BasicResults -->
+        <!-- Basic Results -->
         <div class="portfolio-modal modal fade" id="BasicResults" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-sm">
                 <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="close-modal" data-dismiss="modal"><i class="fas fa-times-circle close-icon"></i></div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col">
                                 <div class="modal-body d-flex justify-content-center">
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/Organizers/basic.jpg" alt="" />
+                                    <img class="img-fluid d-block mx-auto result-img" src="assets/img/Basic.JPG" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Super Results -->
+        <div class="portfolio-modal modal fade" id="SuperResults" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><i class="fas fa-times-circle close-icon"></i></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col">
+                                <div class="modal-body d-flex justify-content-center">
+                                    <img class="img-fluid d-block mx-auto result-img" src="assets/img/Super.JPG" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- HyperResults -->
+        <div class="portfolio-modal modal fade" id="HyperResults" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><i class="fas fa-times-circle close-icon"></i></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col">
+                                <div class="modal-body d-flex justify-content-center">
+                                    <img class="img-fluid d-block mx-auto result-img" src="assets/img/Hyper.JPG " alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Overall Results -->
+        <div class="portfolio-modal modal fade" id="OverallResults" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><i class="fas fa-times-circle close-icon"></i></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col">
+                                <div class="modal-body d-flex justify-content-center">
+                                    <img class="img-fluid d-block mx-auto result-img" src="" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Freestyle Qualifier Results -->
+        <div class="portfolio-modal modal fade" id="FreequalResults" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><i class="fas fa-times-circle close-icon"></i></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col">
+                                <div class="modal-body d-flex justify-content-center">
+                                    <img class="img-fluid d-block mx-auto result-img" src="assets/img/Freestyle Qualifier.JPG" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -645,6 +712,7 @@
                 comp4aList.innerHTML = data.comp4aList;
                 comp5aHeading.innerHTML = data.comp5aHeading;
                 comp5aList.innerHTML = data.comp5aList;
+                compdemosHeading.innerHTML = data.compdemosHeading;
                 fsQualHeading.innerHTML = data.fsQualHeading;
                 fsQualLeft.innerHTML = data.fsQualLeft;
                 fsQualRight.innerHTML = data.fsQualRight;
@@ -672,7 +740,6 @@
                 regSubheading.innerHTML = data.regSubheading;
                 regText.innerHTML = data.regText;
                 resultsHeading.innerHTML = data.resultsHeading;
-                resultsText.innerHTML = data.resultsText;
                 sponsorsHeading.innerHTML = data.sponsorsHeading;
                 orgHeading.innerHTML = data.orgHeading;
                 org1Name.innerHTML = data.org1Name;
