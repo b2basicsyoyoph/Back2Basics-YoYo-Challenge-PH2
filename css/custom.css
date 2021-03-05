@@ -121,6 +121,10 @@ section#sponsors img {
     width: 60%;
 }
 
+svg.svg-inline--fa.fa-times-circle.fa-w-16.close-icon {
+    font-size: 30px;
+}
+
 @media only screen and (max-width: 768px) { 
     .img-org {
         width: 200px;
@@ -260,6 +264,11 @@ section#sponsors img {
 
     section#comp-trick .card {
         text-align: left;
+    }
+
+    .modal-content img {
+        width: 100%;
+        height: 100%;
     }
     
 }
