@@ -317,11 +317,19 @@
             </div>
         </section>
         <!-- Freestyle Rules -->
-        <section class="page-section alternate-bg" id="free-rules">
-            <div class="container p-4">
+        <section class="page-section" id="free-rules">
+            <div class="container">
                 <div class="text-center my-4">
                     <h2 class="section-heading text-uppercase" id="fsRulesHeading"></h2>
                     <span id="fsRulesText"></span>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 contest-text-left text-justify">
+                        <span id="fsRulesLeft"></span>
+                    </div>
+                    <div class="col-md-6 contest-text-right text-justify">
+                        <span id="fsRulesRight"></span>
+                    </div>
                 </div>
             </div>
         </section>
@@ -429,12 +437,12 @@
                                     <option>Super Level</option>
                                     <option>Hyper Level</option>
                                     <option>Basic Level to Hyper Level</option>
-                                    <!-- <option>1A Compulsory Tricks</option>
+                                    <option>1A Compulsory Tricks</option>
                                     <option>2A Compulsory Tricks</option>
                                     <option>3A Compulsory Tricks</option>
                                     <option>4A Compulsory Tricks</option>
                                     <option>5A Compulsory Tricks</option>
-                                    <option>Freestyle Challenge</option> -->
+                                    <!-- <option>Freestyle Challenge</option> -->
                                 </select>
                                 <p class="help-block text-danger"></p>
                             </div>
@@ -728,7 +736,8 @@
                 fsQualLeft.innerHTML = data.fsQualLeft;
                 fsQualRight.innerHTML = data.fsQualRight;
                 fsRulesHeading.innerHTML = data.fsRulesHeading;
-                fsRulesText.innerHTML = data.fsRulesText;
+                fsRulesLeft.innerHTML = data.fsRulesLeft;
+                fsRulesRight.innerHTML = data.fsRulesRight;
                 prizesHeading.innerHTML = data.prizesHeading;
                 prizesSubhead.innerHTML = data.prizesSubhead;
                 prizesTitle1.innerHTML = data.prizesTitle1;
