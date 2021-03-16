@@ -57,7 +57,8 @@
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Freestyle Challenge</a>
                             <div class="dropdown-menu bg-dark custom-drop">
                                 <a class="dropdown-item js-scroll-trigger" href="#free-qual">Qualifying Rules</a>                                
-                                <a class="dropdown-item js-scroll-trigger" href="#free-rules">FREESTYLE RULES</a>                            
+                                <a class="dropdown-item js-scroll-trigger" href="#free-rules">FREESTYLE RULES</a>   
+                                <a class="dropdown-item js-scroll-trigger" href="#free-scoring">FREESTYLE SCORING</a>                                                     
                             </div>
                         </li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#prizes">Prizes</a></li>
@@ -321,7 +322,6 @@
             <div class="container">
                 <div class="text-center my-4">
                     <h2 class="section-heading text-uppercase" id="fsRulesHeading"></h2>
-                    <span id="fsRulesText"></span>
                 </div>
                 <div class="row">
                     <div class="col-md-6 contest-text-left text-justify">
@@ -329,6 +329,23 @@
                     </div>
                     <div class="col-md-6 contest-text-right text-justify">
                         <span id="fsRulesRight"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Freestyle Scoring -->
+        <section class="page-section" id="free-scoring">
+            <div class="container">
+                <div class="text-center my-4">
+                    <h2 class="section-heading text-uppercase" id="fsScoreHeading"></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 contest-text-left text-justify">
+                        <span id="fsScoreLeft"></span>
+                        <img class="img-fluid mt-4" src="assets/img/Sample-Freestyle-Score.JPG" />
+                    </div>
+                    <div class="col-md-6 contest-text-right text-justify">
+                        <span id="fsScoreRight"></span>
                     </div>
                 </div>
             </div>
@@ -738,6 +755,9 @@
                 fsRulesHeading.innerHTML = data.fsRulesHeading;
                 fsRulesLeft.innerHTML = data.fsRulesLeft;
                 fsRulesRight.innerHTML = data.fsRulesRight;
+                fsScoreHeading.innerHTML = data.fsScoreHeading;
+                fsScoreLeft.innerHTML = data.fsScoreLeft;
+                fsScoreRight.innerHTML = data.fsScoreRight;
                 prizesHeading.innerHTML = data.prizesHeading;
                 prizesSubhead.innerHTML = data.prizesSubhead;
                 prizesTitle1.innerHTML = data.prizesTitle1;
