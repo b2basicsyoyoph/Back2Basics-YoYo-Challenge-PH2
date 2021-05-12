@@ -1,3 +1,15 @@
+.text-gold {
+    color: #ffc733;
+}
+
+.text-silver {
+    color: #C0C0C0;
+}
+
+.text-bronze {
+    color: #cc9400;
+}
+
 .about-text-left, .contest-text-left {
     border-right: solid 2px #212529;
 }
@@ -123,6 +135,10 @@ section#sponsors img {
 
 svg.svg-inline--fa.fa-times-circle.fa-w-16.close-icon {
     font-size: 30px;
+}
+
+.masthead-int {
+    background-image: url("../assets/img/header-bg-int.jpg") !important;
 }
 
 @media only screen and (max-width: 768px) { 
@@ -271,4 +287,8 @@ svg.svg-inline--fa.fa-times-circle.fa-w-16.close-icon {
         height: 100%;
     }
     
+
+    #sponsors img {
+        width: 70% !important;
+    }
 }
